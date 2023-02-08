@@ -1,6 +1,16 @@
 ---
 layout: default
 title: Homepage
+featured:
+- icon: fab fa-pagelines
+  heading: 
+  description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium eaque eius et id odit saepe repellat delectus, suscipit nobis facilis voluptatibus odio distinctio?
+- icon: fab fa-pagelines
+  heading: Ассортимент
+  description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium eaque eius et id odit saepe repellat delectus, suscipit nobis facilis voluptatibus odio distinctio?
+- icon: fab fa-pagelines
+  heading:  
+  description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium eaque eius et id odit saepe repellat delectus, suscipit nobis facilis voluptatibus odio distinctio?
 seo:
  title:
  description:
@@ -8,4 +18,31 @@ seo:
  keywords: 
  hide-from-google: false
 ---
+ <!-- This is Header -->
 
+    <header class="grid bg-image bg-bar tall-80">
+
+        <div class="col-12 ">
+            <h1 class="text-featured"> Баравиха </h1>
+        </div>
+
+    </header>
+
+<!--  Feature Icon grid  -->
+    <section class="padded grid-center bg-dark"> 
+
+        <div class="padded-sm col-12 text-center">
+            <h2> <span class="featured-text">features</span> you will love </h2>     
+        </div> 
+
+        {% for item in page.featured %} 
+
+        <div class="padded-sm col-3_sm-6 center xxs-stack">
+            <i class=" {{item.icon}}"></i>
+            <h4> {{item.heading}} </h4>
+            <p> {{item.description}} </p>  
+        </div>  
+
+        {% endfor %}
+
+    </section>

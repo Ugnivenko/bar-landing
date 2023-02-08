@@ -219,6 +219,7 @@ footer .logo {
     background-repeat: no-repeat;
     background-image: url('/images/bg-light.jpg');
 }
+.bg-bar { background-image: url('/images/interior.jpg');}
 
 /* General CSS Responsive Styles ---------------------------- */
 .show-xs, 
