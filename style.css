@@ -12,7 +12,7 @@ img { max-width: 100%; height: auto;}
 
 /* NOTES
 - font:
-'Maven Pro', sans-serif; 400,500,600
+font-family: 'Playfair Display', serif 400,500,600,700
 'Noto Sans Display', sans-serif;
 - colors
 light #acc2b6
@@ -27,6 +27,7 @@ dark #3f564b
 } */
 html,
 body {
+    font-family: 'Playfair Display', serif;
     border: none;
 }
 h1, h2, h3, h4, h5, h6, p, a {border: 1px solid rgb(210, 152, 145);} */
@@ -96,7 +97,7 @@ h1, h2, h3, h4, h5, h6, p, a {border: 1px solid rgb(210, 152, 145);} */
 .portrait      { padding-bottom: 125%; }
 .square        { padding-bottom: 100%; }
 
-/* Background Colors--------- */
+/* --------------Background Colors------------------------------------- */
 .bg-light    { background-color: }
 .bg-featured { background-color: }
 .bg-dark      {background-color: }
@@ -111,7 +112,7 @@ h1, h2, h3, h4, h5, h6, p, a {border: 1px solid rgb(210, 152, 145);} */
     font-size: 1.3rem;
     color: rgb(120,120,125);}
 
-/* Buttons ---------------*/
+/*-------------------- Buttons ------------------------*/
 .button {
     text-decoration: none;
     border: 2px solid; 
@@ -170,7 +171,7 @@ a {
     color: inherit;
 }
 
-/* ---- Specific Typography -------- */
+/* ---------- Specific Typography ------------------ */
 
 .logo {
     font-family: 
@@ -199,7 +200,7 @@ footer .logo {
     font-style: italic;
     }
 
-/* ------- Social Links - Class -------- */
+/* ------- Social Links - Class ------------ */
 .fa-brands {
     margin-top: 1rem;
     font-size: 1.2rem;
@@ -221,7 +222,7 @@ footer .logo {
 }
 .bg-bar { background-image: url('/images/interior.jpg');}
 
-/* Overlay Effect ------------ */
+/* -----------------Overlay Effect ------------------- */
 .bg-overlay {
     position: relative;
   }
@@ -250,16 +251,25 @@ footer .logo {
 .img-3 {background-image: url('/images/pizza.jpg');}
 .img-4 {background-image: url('/images/bg-g-3.jpg');}
 
+.caption {
+    font-family: 'Georgia';
+    color: rgb(90,90,90);
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+    font-style: italic;
+    text-align: center;
+  }
+
 /* Content */
 .slider-container {
-    /*   border: 1px solid blue; */
+      border: 1px solid blue;
       padding: 5%;
-    /*   padding-top: 1rem; */
+      /* padding-top: 1rem; */
     }
     
     .slider-item {
       padding: 0.5rem;
-    /*   border: 2px solid orange; */
+      /* border: 2px solid orange; */
       display: none;
     }
     .slider-item:first-child {
@@ -299,6 +309,8 @@ footer .logo {
     .slick-dots li.slick-active button::before {
            color: rgb(90, 90, 90);
     }
+
+    
     
     
 
