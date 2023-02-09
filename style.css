@@ -169,12 +169,10 @@ a {
 /* ---------- Specific Typography ------------------ */
 
 .logo {
-    font-family: 
-    font-weight: 700;
-    font-size: 2.8rem;
+    font-weight: 600;
+    font-size: 7rem;
     padding: 0;
     /* color: #3f564b; */
-    padding-bottom: 1rem;
 }
 .subtle { 
     opacity: 0.8;
