@@ -3,14 +3,14 @@ layout: default
 title: Homepage
 featured:
 - icon: fab fa-pagelines
-  heading: 
+  heading: text
   description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium.
 - icon: fab fa-pagelines
   heading: text
   description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium 
 - icon: fab fa-pagelines
-  heading:  
-  description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium voluptatibus odio distinctio?
+  heading: text
+  description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium 
 seo:
  title: 
  description:
@@ -20,7 +20,7 @@ seo:
 ---
  <!-- This is Header -->
 
-    <header class="grid bg-image bg-bar bg-overlay tall-80">
+    <header class="grid bg-image bg-bar bg-overlay tall-90">
 
         <div class="col-12-middle center ">
             <h1 class="text-light"> LOGO </h1>
@@ -31,13 +31,13 @@ seo:
 <!--  Feature Icon grid  -->
     <section class="padded grid-center bg-dark"> 
 
-        <div class="col-12 center padded-1">
-            <h2> <span class="featured-text"> features you will love </h2>     
+        <div class="col-12 center padded-2">
+            <h2 class="featured-text"> features you will love </h2>     
         </div> 
 
         {% for item in page.featured %} 
 
-        <div class="padded-sm col-3_sm-6 center xxs-stack padded-1">
+        <div class=" col-3_sm-6 center xxs-stack padded-1">
             <i class=" {{item.icon}}"></i>
             <h4> {{item.heading}} </h4>
             <p> {{item.description}} </p>  
@@ -50,4 +50,4 @@ seo:
 
     <!-- Slider Gallery -------------- -->
 
-{% include gallery.html %}
+    {% include gallery.html %}
