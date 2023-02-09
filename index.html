@@ -4,15 +4,15 @@ title: Homepage
 featured:
 - icon: fab fa-pagelines
   heading: 
-  description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium eaque eius et id odit saepe repellat delectus, suscipit nobis facilis voluptatibus odio distinctio?
+  description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium.
 - icon: fab fa-pagelines
-  heading: Ассортимент
-  description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium eaque eius et id odit saepe repellat delectus, suscipit nobis facilis voluptatibus odio distinctio?
+  heading: text
+  description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium 
 - icon: fab fa-pagelines
   heading:  
-  description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium eaque eius et id odit saepe repellat delectus, suscipit nobis facilis voluptatibus odio distinctio?
+  description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt vero et praesentium. Possimus quae praesentium voluptatibus odio distinctio?
 seo:
- title:
+ title: 
  description:
  social_image:
  keywords: 
@@ -20,10 +20,10 @@ seo:
 ---
  <!-- This is Header -->
 
-    <header class="grid bg-image bg-bar tall-80">
+    <header class="grid bg-image bg-bar bg-overlay tall-80">
 
-        <div class="col-12 ">
-            <h1 class="text-featured"> Баравиха </h1>
+        <div class="col-12-middle center ">
+            <h1 class="text-light"> LOGO </h1>
         </div>
 
     </header>
@@ -31,13 +31,13 @@ seo:
 <!--  Feature Icon grid  -->
     <section class="padded grid-center bg-dark"> 
 
-        <div class="padded-sm col-12 text-center">
-            <h2> <span class="featured-text">features</span> you will love </h2>     
+        <div class="col-12 center padded-1">
+            <h2> <span class="featured-text"> features you will love </h2>     
         </div> 
 
         {% for item in page.featured %} 
 
-        <div class="padded-sm col-3_sm-6 center xxs-stack">
+        <div class="padded-sm col-3_sm-6 center xxs-stack padded-1">
             <i class=" {{item.icon}}"></i>
             <h4> {{item.heading}} </h4>
             <p> {{item.description}} </p>  
@@ -46,3 +46,8 @@ seo:
         {% endfor %}
 
     </section>
+
+
+    <!-- Slider Gallery -------------- -->
+
+{% include gallery.html %}
