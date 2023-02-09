@@ -207,7 +207,7 @@ footer .logo {
 /*-- Background Images --------------------------------*/
 
 .bg-image {
-    background-color: tan; 
+    background-color: #CCB38E; 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -297,7 +297,7 @@ footer .logo {
     }
     .slick-dots li button::before {
            font-size: 10px;
-           color: rgb(0, 128, 128);
+           color: #CCB38E;
     }
     .slick-dots li.slick-active button::before {
            color: rgb(90, 90, 90);
