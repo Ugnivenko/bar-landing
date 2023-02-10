@@ -147,10 +147,10 @@ a {
     border-bottom: 1px;
     color: inherit;
 }
-p, a {  
+p {  
     line-height: 1.5;
-    margin-bottom: 0.8rem;
-    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
 }
 p:last-child {
    margin-bottom: 0;
@@ -188,11 +188,13 @@ a {
 .subtle { 
     opacity: 0.8;
 } 
-.fas, .fab {
+.fab {
     display: block;
     text-align: center;
-    margin-bottom: 2rem;
-    font-size: 3rem;}
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
 
 /* ------------------Header & Footer ---------------- */
 header {
@@ -212,11 +214,11 @@ footer .logo {
 /* ------- Social Links - Class ------------ */
 .fa-brands {
     margin-top: 1rem;
-    font-size: 1.2rem;
-    padding-left: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.25rem 0.5rem;
 }
 .fa-brands:hover {
-    color: #3f564b;
+    color: ;
 }
 .fa-brands:first-child {padding-left: 0%;}
 
