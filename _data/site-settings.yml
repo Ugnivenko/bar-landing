@@ -1,0 +1,18 @@
+seo:
+  site_name: 
+  title: default SEO title
+  description:
+  keywords:
+  social_image:
+  author:
+  favorite_image: 
+social:
+  instagram_username: 
+  facebook_url:
+  twitter_username:
+design:
+  dark-background_color: '#41312d'
+  light-background_color: '#'
+  light-text_color: '#F6EFE4'
+  featured_color: '#c4bc98'
+  icons_color: 'rgb(120,120,125)'

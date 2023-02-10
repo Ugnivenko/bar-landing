@@ -98,12 +98,12 @@ body {
 
 /* --------------Background Colors------------------------------------- */
 .bg-light    { background-color: #E7D5B8;}
-.bg-featured { background-color: #41312d; }
+.bg-featured { background-color: #c4bc98; }
 .bg-dark      {background-color: #41312d;}
 .border-white { 
     border: 1rem solid white;}
 
-.text-featured { color: #DEBE9B;} 
+.text-featured { color: #c4bc98;} 
 .text-light {color: #F6EFE4;}
 .text-dark {color: #41312d;}
 
@@ -183,7 +183,7 @@ a {
     font-weight: 600;
     font-size: 7rem;
     padding: 0;
-    /* color: #3f564b; */
+    color: #c4bc98;
 }
 .subtle { 
     opacity: 0.8;
@@ -225,7 +225,7 @@ footer .logo {
 /*----- Background Images ----------------------------------*/
 
 .bg-square {
-    background-color: #B4A97C;
+    background-color: #c4bc98;
  }
 .bg-image {
     background-color: #CCB38E; 
