@@ -3,7 +3,7 @@ $('.slider-container').slick({
     // Add a settinfs here  
       autoplay: true, // Do we want it to autoplay? true or false
         autoplaySpeed: 2000, // How long between each slide when auto-playing
-        speed: 500, // How fast is the transition in milliseconds
+        speed: 2000, // How fast is the transition in milliseconds
         arrows: true, // Do you want to show arrows to trigger each slide
         accessibility: true, // Enables keyboard tabbing and arrow key navigation
         dots: true, // Enables the dots below to show how many slides

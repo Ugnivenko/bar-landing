@@ -44,7 +44,7 @@ seo:
     </section>
 
 <!--  Feature Icon grid  -->
-    <section class="padded grid-spaceAround margin-b-2 bg-dark text-light"> 
+    <section class="padded grid-spaceAround bg-dark text-light"> 
 
         <div class="col-12 center padded-2">
             <h2 class="text-light"> Почему именно мы? </h2>     
@@ -52,7 +52,7 @@ seo:
 
         {% for item in page.featured %} 
 
-        <div class=" col-3_sm-6 center xxs-stack padded-1">
+        <div class=" col-3_sm-6 center padded-2">
             <i class=" {{item.icon}} text-featured"></i>
             <h3> {{item.heading}} </h3>
             <p> {{item.description}} </p>  
