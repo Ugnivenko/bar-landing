@@ -28,18 +28,38 @@ seo:
 
     </header>
 
+<!-- About Section -->
+
+    <section class="grid padded">
+        <div class="col-5-middle padded-1">
+            <h2> О нас</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, perspiciatis obcaecati pariatur natus dolorum illo, veritatis delectus architecto iure ad odio molestiae! Praesentium non veritatis numquam ab officiis voluptates placeat.</p>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque iste nobis tempore ullam fugit laboriosam obcaecati ipsa corporis voluptatem? Nihil, beatae facere labore itaque maiores deserunt.</p>
+        </div>
+
+        <div class="col-7_sm-12-middle grid about-us">
+            <div class="col-7-"> 
+                <div class="bg-image img-2 portrait"></div>
+            </div>
+            <div class="col-5">
+                <div class="bg-image img-1 square"></div>
+                <div class="bg-image img-3 square"></div>
+            </div>
+        </div>
+    </section>
+
 <!--  Feature Icon grid  -->
-    <section class="padded grid-center bg-dark margin-b-2 margin-t-1"> 
+    <section class="padded grid-spaceAround margin-b-2 bg-dark text-light"> 
 
         <div class="col-12 center padded-2">
-            <h2 class="featured-text"> features you will love </h2>     
+            <h2 class="text-light"> Почему именно мы? </h2>     
         </div> 
 
         {% for item in page.featured %} 
 
         <div class=" col-3_sm-6 center xxs-stack padded-1">
-            <i class=" {{item.icon}}"></i>
-            <h4> {{item.heading}} </h4>
+            <i class=" {{item.icon}} text-featured"></i>
+            <h3> {{item.heading}} </h3>
             <p> {{item.description}} </p>  
         </div>  
 

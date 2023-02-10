@@ -48,7 +48,7 @@ body {
 .right  { text-align: right; }
 
 /* Padding Utility Classes -------*/
-.padded-0 {padding: 0;}
+.padded-0 { padding: 0;}
 .padded    { padding: 5%;   }
 .padded-1  { padding: 1rem; }
 .padded-2  { padding: 2rem; }
@@ -97,15 +97,15 @@ body {
 .square        { padding-bottom: 100%; }
 
 /* --------------Background Colors------------------------------------- */
-.bg-light    { background-color: }
-.bg-featured { background-color: }
-.bg-dark      {background-color: }
+.bg-light    { background-color: #E7D5B8;}
+.bg-featured { background-color: #41312d; }
+.bg-dark      {background-color: #41312d;}
 .border-white { 
     border: 1rem solid white;}
 
-.text-featured { color: } 
-.text-light {color: white;}
-.text-dark {color: }
+.text-featured { color: #DEBE9B;} 
+.text-light {color: #F6EFE4;}
+.text-dark {color: #41312d;}
 
 .subtitle { 
     font-size: 1.3rem;
@@ -133,8 +133,8 @@ body {
     font-weight: 
 }
 
-h1 { font-size: 2.5rem;}
-h2 { font-size: 2rem; }
+h1 { font-size: 2.8rem;}
+h2 { font-size: 2.5rem; }
 h3 {
     font-size: 1.3rem;
     margin-bottom: 0.7rem;
@@ -177,6 +177,11 @@ a {
 .subtle { 
     opacity: 0.8;
 } 
+.fas, .fab {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;}
 
 /* ------------------Header & Footer ---------------- */
 header {
@@ -204,7 +209,11 @@ footer .logo {
 }
 .fa-brands:first-child {padding-left: 0%;}
 
-/*-- Background Images --------------------------------*/
+.bg-featured { background-color: #3F2C13;}
+
+/*----- Background Images ----------------------------------*/
+
+.about-us [class*="col-"] { padding: 1%;}
 
 .bg-image {
     background-color: #CCB38E; 
@@ -277,8 +286,8 @@ footer .logo {
           font-family: slick;
           font-size: 25px;
           line-height: 1;
-          opacity: .75;
-          color: rgb(90, 90, 90);
+          opacity: .6;
+          color: #CCB38E;
     } 
     /* move arrows into the container */
     .slick-prev { left: 1.5%;}
@@ -287,7 +296,7 @@ footer .logo {
     /* Styling Dots */
     .slick-dots {
          bottom: 3%;
-      left: 0; 
+         left: 0; 
     /*  left 0 is to center the dots , do not delete */
     }
     /* to control the distance between dots */
@@ -298,9 +307,11 @@ footer .logo {
     .slick-dots li button::before {
            font-size: 10px;
            color: #CCB38E;
+           opacity: .6;
     }
     .slick-dots li.slick-active button::before {
-           color: rgb(90, 90, 90);
+           color: #6A4823;
+           opacity: .6;
     }
 
     
