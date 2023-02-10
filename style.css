@@ -134,7 +134,10 @@ body {
 }
 
 h1 { font-size: 2.8rem;}
-h2 { font-size: 2.5rem; }
+h2 { 
+    font-size: 2.5rem; 
+    margin-bottom: 1rem;
+}
 h3 {
     font-size: 1.3rem;
     margin-bottom: 0.7rem;
@@ -165,6 +168,14 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+/* Grids & Positioning---------------------------------------------- */
+
+.relative { position: relative; }
+.stalked {
+    border: 0.5vw solid white;
+}
+.border-padded [class*="col-"] { padding: 1%;}
 
 /* ---------- Specific Typography ------------------ */
 
@@ -213,8 +224,9 @@ footer .logo {
 
 /*----- Background Images ----------------------------------*/
 
-.about-us [class*="col-"] { padding: 1%;}
-
+.bg-square {
+    background-color: #B4A97C;
+ }
 .bg-image {
     background-color: #CCB38E; 
     background-size: cover; 
@@ -223,7 +235,13 @@ footer .logo {
     background-image: url('/images/bg-light.jpg');
 }
 .bg-bar { background-image: url('/images/interior.jpg');}
-
+.bg-us {
+    background-image: url('/images/pizza.jpg');
+    position: relative;
+    top: 2rem;
+    right: 2rem;
+    margin: 0;
+}
 /* -----------------Overlay Effect ------------------- */
 .bg-overlay {
     position: relative;
