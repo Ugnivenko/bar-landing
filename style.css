@@ -257,7 +257,9 @@ footer .logo {
     right: 2rem;
     margin: 0;
 }
-.bg- {background-image: url('/images/pizza.jpg');}
+.bg-food {background-image: url('/images/food-light.jpg');}
+.bg-drinks {background-image: url('/images/bg-g-1.jpg');}
+.bg-interior {background-image: url('/images/bar-dark.jpg');}
 /* -----------------Overlay Effect ------------------- */
 .bg-overlay {
     position: relative;
@@ -282,10 +284,13 @@ footer .logo {
 
 /* -----------------------Gallery JS --------------------------- */
 
-.img-1 {background-image: url('/images/food.jpg');}
-.img-2 {background-image: url('/images/party.jpg');}
-.img-3 {background-image: url('/images/pizza.jpg');}
-.img-4 {background-image: url('/images/bg-g-3.jpg');}
+.img-2 {background-image: url('/images/food.jpg');}
+.img-6 {background-image: url('/images/pancakes.jpg');}
+.img-5 {background-image: url('/images/pizza.jpg');}
+.img-1 {background-image: url('/images/rolls.jpg');}
+.img-4 {background-image: url('/images/salad-half.jpg');}
+.img-7 {background-image: url('/images/bg-g-1.jpg');}
+.img-3 {background-image: url('/images/main.jpg');}
 
 .caption {
     font-family: 'Georgia';
