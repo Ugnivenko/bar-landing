@@ -139,7 +139,7 @@ h2 {
     margin-bottom: 1rem;
 }
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     margin-bottom: 0.7rem;
 }
 a {
@@ -195,11 +195,9 @@ a {
 .subtle { 
     opacity: 0.8;
 } 
-.fab {
-    display: block;
-    text-align: center;
-    font-size: 4rem;
-    margin-bottom: 1.5rem;
+.uppercase { 
+    font-weight: lighter; 
+    text-transform: uppercase;
 }
 
 
@@ -219,7 +217,7 @@ footer .logo {
     }
 
 /* ------- Social Links - Class ------------ */
-.fa-brands {
+.fa-brands, .fa-icons {
     margin-top: 1rem;
     font-size: 1.5rem;
     padding: 0.25rem 0.5rem;
@@ -230,6 +228,14 @@ footer .logo {
 .fa-brands:first-child {padding-left: 0%;}
 
 .bg-featured { background-color: #3F2C13;}
+
+.fab, .fa-solid {
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
 
 /*----- Background Images ----------------------------------*/
 
@@ -251,6 +257,7 @@ footer .logo {
     right: 2rem;
     margin: 0;
 }
+.bg- {background-image: url('/images/pizza.jpg');}
 /* -----------------Overlay Effect ------------------- */
 .bg-overlay {
     position: relative;
