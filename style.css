@@ -176,7 +176,9 @@ a {
     border: 0.5vw solid white;
 }
 .border-padded [class*="col-"] { padding: 1%;}
-
+.capped-width { 
+    margin: auto
+    width: 1000px;}
 /* ---------- Specific Typography ------------------ */
 
 .logo {
@@ -184,6 +186,11 @@ a {
     font-size: 7rem;
     padding: 0;
     color: #c4bc98;
+}
+.banner p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
 }
 .subtle { 
     opacity: 0.8;
