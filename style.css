@@ -1,3 +1,12 @@
+
+:root {
+    --dark: #1f1005; 
+    --featured: #dbd2a8 ;
+    --text-featured: #dbd2a8;
+    --light: #ecdec7;
+    --text-light: #F6EFE4;
+}
+#f9f7b6
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +24,8 @@ font-family: 'Playfair Display', serif 400,500,600,700
 'Noto Sans Display', sans-serif;
 - colors
 light #acc2b6
-feartured #95b1a2
-dark #3f564b
+feartured #F6EFE4
+dark #1f1005
 */
 
 /* temporary styles */
@@ -97,22 +106,20 @@ body {
 .square        { padding-bottom: 100%; }
 
 /* --------------Background Colors------------------------------------- */
-.bg-light    { background-color: #E7D5B8;}
-.bg-featured { background-color: #c4bc98;}
-.bg-dark      {background-color: #41312d;}
+.bg-light    { background-color: var(--light);}
+.bg-featured {background-color: var(--featured);}
+.bg-dark      { background-color: var(--dark);}
 .border-white { 
     border: 1rem solid white;}
 
-.text-featured { color: #c4bc98;} 
-.text-light {color: #F6EFE4;}
-.text-dark {color: #41312d;}
+.text-featured { color: var(--text-featured);} 
+.text-light {color: var(--text-light);}
+.text-dark {color: var(--dark);}
+.text-big { font-size: 2rem !important;}
 
-.subtitle { 
-    font-size: 1.3rem;
-    color: rgb(120,120,125);}
 
 /*-------------------- Buttons ------------------------*/
-.button {
+/* .button {
     text-decoration: none;
     border: 2px solid; 
     padding: 0.5rem 1rem;
@@ -125,12 +132,13 @@ body {
   }
   .button:hover {
     background-color: #acc2b6;
-  }
+  } */
 
   /* ------ Base Typography ------- */
 body {
     font-family: 'Playfair Display', serif; 
     font-weight: 
+    color: rgb(60,60,90);
 }
 
 h1 { font-size: 2.8rem;}
@@ -178,21 +186,21 @@ a {
 .border-padded [class*="col-"] { padding: 1%;}
 .capped-width { 
     margin: auto
-    width: 1000px;}
+    max-width: 1000px;}
 /* ---------- Specific Typography ------------------ */
 
 .logo {
     font-weight: 600;
     font-size: 7rem;
     padding: 0;
-    color: #c4bc98;
+    color: var(--light);
 }
 .banner p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1.5;
-    margin-bottom: 0.5rem;
 }
-.subtle { 
+
+.copyright { 
     opacity: 0.8;
 } 
 .uppercase { 
@@ -214,20 +222,23 @@ footer .logo {
 .copyright {
     font-size: 0.8rem;
     font-style: italic;
+    font-size: 0.9rem;
+    font-style: italic;
     }
 
 /* ------- Social Links - Class ------------ */
+.social-share { font-size: 1.5rem;}
 .fa-brands, .fa-icons {
     margin-top: 1rem;
     font-size: 1.5rem;
     padding: 0.25rem 0.5rem;
+    margin-right: 0.3rem;
 }
 .fa-brands:hover {
-    color: ;
+    color: #c4bc98;
 }
 .fa-brands:first-child {padding-left: 0%;}
 
-.bg-featured { background-color: #3F2C13;}
 
 .fab, .fa-solid {
     display: block;
@@ -243,7 +254,7 @@ footer .logo {
     background-color: #c4bc98;
  }
 .bg-image {
-    background-color: #CCB38E; 
+    background-color: var(--light); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -257,6 +268,7 @@ footer .logo {
     right: 2rem;
     margin: 0;
 }
+.bg-rolls {background-image: url('/images/rolls.jpg');}
 .bg-food {background-image: url('/images/food-light.jpg');}
 .bg-drinks {background-image: url('/images/bg-g-1.jpg');}
 .bg-interior {background-image: url('/images/bar-dark.jpg');}
