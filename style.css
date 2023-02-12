@@ -6,7 +6,7 @@
     --light: #ecdec7;
     --text-light: #F6EFE4;
 }
-#f9f7b6
+
 * {
     margin: 0;
     padding: 0;
@@ -136,7 +136,8 @@ body {
 
   /* ------ Base Typography ------- */
 body {
-    font-family: 'Playfair Display', serif; 
+
+    font-family: 'Lora', serif;
     font-weight: 
     color: rgb(60,60,90);
 }
@@ -199,10 +200,7 @@ a {
     font-size: 1.8rem;
     line-height: 1.5;
 }
-
-.copyright { 
-    opacity: 0.8;
-} 
+ 
 .uppercase { 
     font-weight: lighter; 
     text-transform: uppercase;
@@ -221,7 +219,7 @@ footer .logo {
 }
 .copyright {
     font-size: 0.8rem;
-    font-style: italic;
+    color: var(--text-light);
     font-size: 0.9rem;
     font-style: italic;
     }
@@ -301,7 +299,7 @@ footer .logo {
 .img-5 {background-image: url('/images/pizza.jpg');}
 .img-1 {background-image: url('/images/rolls.jpg');}
 .img-4 {background-image: url('/images/salad-half.jpg');}
-.img-7 {background-image: url('/images/bg-g-1.jpg');}
+.img-7 {background-image: url('/images/party.jpg');}
 .img-3 {background-image: url('/images/main.jpg');}
 
 .caption {
