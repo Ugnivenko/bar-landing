@@ -1,0 +1,43 @@
+---
+layout: default
+popup-gallery: true
+gallery-background: bg-light
+gallery:
+  - column-size: col-6
+    aspect-ratio: square
+    background_image: /images/food-light.jpg
+  - column-size: col-6
+    aspect-ratio: square
+    background_image: /images/rolls.jpg
+  - column-size: col-4
+    aspect-ratio: portrait
+    background_image: /images/food.jpg
+  - column-size: col-4
+    aspect-ratio: portrait
+    background_image: /images/burger.jpg 
+  - column-size: col-4
+    aspect-ratio: portrait
+    background_image: /images/pancakes.jpg
+  - column-size: col-12
+    aspect-ratio: landscape-wide
+    background_image: /images/pizza.jpg
+---
+
+<!--  Popup Gallery --> 
+<section class="padded center {{page.gallery-background}}"
+>
+
+  <h2 class="margin-b-2 text-dark"> Menu Gallery</h2>
+    <div class="gallery grid" id="lightgallery">
+
+        {% for item in page.gallery %}
+
+        <a class="{{item.column-size}} gallery-item" href="{{item.background_image}}">
+        <div class="bg-image {{item.aspect-ratio}}" style="background-image: url('{{item.background_image}}');">
+        </div>
+      </a> 
+        {% endfor %}
+
+      </div>
+
+</section>

@@ -292,6 +292,17 @@ footer .logo {
     background: linear-gradient(260deg, rgba(0,0,0,0.8), rgba(0,0,0,0));
   } 
 
+/* Image POP UP Gallery */
+
+.gallery [class*="col-"] { padding: 0.7%;}
+.gallery .gallery-item {
+    border-bottom: none;
+}
+.lg-backdrop.in {
+    opacity: 0.95;
+  }
+  .lg-backdrop {background-color: rgb(20,20,20);}
+
 /* -----------------------Gallery JS --------------------------- */
 
 .img-2 {background-image: url('/images/food.jpg');}

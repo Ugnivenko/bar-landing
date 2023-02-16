@@ -28,3 +28,4 @@ $('.slider-container').slick({
         }
       ]
     });
+
