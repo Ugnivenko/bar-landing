@@ -6,32 +6,36 @@
         <h1> Свяжитесь с нами </h1>
     </div>
 
-    <form
+    <form class="grid-spaceBetween center "
     action="https://formspree.io/f/xvonapqe"
-    method="POST"
-    >
+    method="POST">
+        <div class="col-6 padded-r-03">
+            <input type="text" name="name" placeholder="Имя" >
+        </div>
+        <div class="col-6">
+            <input type="tel" name="_tel" id="_tel" placeholder="_(___) ___-____">
+        </div>
+        
+        <div class="col-12">
+            <input type="email" name="_replyto" placeholder="Email">
+        </div>
+        <!-- <div class="col-12">
+            <label for="date"> Дата </label>
+            <span id="date-format">(DD-MM-YYYY):</span>
+            <input type="date" name="date" id="date" aria-describedby="date-format" min="2021-11-01" max="2025-01-01" />
+        </div>
 
-    <label for="_name"> Имя </label>
-        <input type="text" name="_name" id="_name" placeholder="Name" />      
-
-    <label for="_tel"> Телефон  </label>
-        <input type="tel" name="_tel" id="_tel" placeholder="_(___) ___-____" />
-
-    <label>
-        Email:
-        <input type="email" name="email">
-    </label>
-
-    <!-- <label for="date"> Дата </label>
-    <span id="date-format">(DD-MM-YYYY):</span>
-    <input type="date" name="date" id="date" aria-describedby="date-format" min="2021-11-01" max="2025-01-01" /> -->
-
-    <label>
-        Ваш вопрос:
-        <textarea name="message"></textarea>
-    </label>
-    <!-- your other form fields go here -->
-    <button type="submit">ПРЕДСТАВИТЬ</button>
+        <div class="col-12">
+            <label for="date"> Укажите время и количество человек </label>
+            <textarea placeholder="время и количество человек" rows="4"></textarea>
+        </div> -->
+        <div class="col-12">
+            <label for="date">  </label>
+            <textarea placeholder="Для вопросов и предложений" rows="4"></textarea>
+        </div>
+        <div class="col-12 center"> 
+            <button type="submit" class="button" value="Send">Отправить</button>
+         </div>
     </form>
 
 </section>
