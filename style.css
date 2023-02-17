@@ -45,7 +45,7 @@ body {
 
 /* Re-usable Utiity Classes  */
 .tall-50 { min-height: 50vh; }
-.tall-51 { min-height: 50vh;}
+.tall-55 { min-height: 55vh;}
 .tall-60 { min-height: 60vh; }
 .tall-70 { min-height: 70vh; }
 .tall-80 { min-height: 80vh; }
@@ -94,6 +94,7 @@ body {
 
 .margin-b-0 { margin-bottom: 0; }
 .margin-b-1 { margin-bottom: 1rem;}
+.margin-b-15 { margin-bottom: 1.5rem;}
 .margin-b-2 { margin-bottom: 2rem;}
 .margin-t-1 {margin-top: 1rem;}
 .margin-t-15 {margin-top: 1.5rem;}
@@ -434,11 +435,22 @@ footer .logo {
 @media (max-width: 48em) {
     .show-sm { display: block; }
     .hide-sm { display: none;  }
+    .sm-margin-b-1 { margin-bottom: 1rem;}
+    .sm-padded-b-0 { padding-bottom: 0 ;}
+
+    .flex-flip-sm {flex-direction: column-reverse;}
+    .sm-center { text-align: center;}
 
     .sm-text-center { text-align: center; }
     .sm-text-left { text-align: left; }
     .sm-text-right { text-align: right; }
   
     .sm-padded-1 { padding: 1rem; }    
+    .bg-us { position: inherit; }
+    .sm-tall-45 {   min-height: 45vh !important}
     
+    .banner p {
+        font-size: 1.8rem;
+        line-height: 1.4;
+
 }

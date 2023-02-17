@@ -31,20 +31,20 @@ seo:
 <!-- About Section -->
 
     <section class="grid-spaceBetween tall-90 margin-b-2 padded relative">
-        <div class="col-6-middle padded-1">
+        <div class="col-6_sm-12-middle padded-1">
             <h2 class="text-dark"> О нас</h2>
             <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, perspiciatis obcaecati pariatur natus dolorum illo, veritatis delectus architecto iure ad odio molestiae! Praesentium non veritatis numquam ab officiis voluptates placeat.</p>
             <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque iste nobis tempore ullam fugit laboriosam obcaecati ipsa corporis voluptatem? Nihil, beatae facere labore itaque maiores deserunt.</p>
         </div>
 
-        <div class="col-5-12-middle bg-square ">
+        <div class="col-5_sm-12-middle bg-square ">
                 <div class="bg-image bg-us landscape"></div>
             </div>
         </div>
     </section>
 
 <!--  Feature Icon grid  -->
-    <section class="padded grid-spaceAround bg-dark text-light"> 
+    <section class="padded sm-margin-b-1 grid-spaceAround bg-dark text-light"> 
 
         <div class="col-12 center padded-2">
             <h2 class="text-light"> Почему именно мы? </h2>     
@@ -52,7 +52,7 @@ seo:
 
         {% for item in page.featured %} 
 
-        <div class=" col-3_sm-6 center padded-2">
+        <div class=" col-3_md-6_sm-12 center padded-2">
             <i class=" {{item.icon}} text-featured"></i>
             <h3> {{item.heading}} </h3>
             <p> {{item.description}} </p>  
@@ -64,35 +64,35 @@ seo:
 
 <!-- Section Service -->
 
-    <section class="grid padded padded-b-2">
-        <div class="col-6 bg-image bg-food tall-60"></div>
-        <div class="col-6-middle padded">
-            <h3> Японская & Европейская Кухня </h3>
+    <section class="grid padded padded-b-2 sm-padded-b-0 ">
+        <div class="col-6_sm-12 bg-image bg-food tall-60"></div>
+        <div class="col-6_sm-12-middle padded">
+            <h3 class="sm-center "> Японская & Европейская Кухня </h3>
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam ipsum recusandae sapiente voluptatem sunt reiciendis, quos cumque magni, vel maiores eius, voluptas possimus placeat distinctio tenetur sed harum aspernatur.</p>
         </div>  
     </section>
 
-    <section class="grid padded padded-b-2">
-        <div class="col-6-middle padded">
-           <h3> Широкий Ассортимент Кальянов </h3> 
+    <section class="grid padded padded-b-2 flex-flip-sm sm-padded-b-0">
+        <div class="col-6_sm-12-middle padded">
+           <h3 class="sm-center "> Широкий Ассортимент Кальянов </h3> 
            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non perferendis necessitatibus obcaecati incidunt porro tenetur veritatis unde, asperiores nihil et sapiente laborum sed, dicta molestiae iure, veniam in doloribus ipsam.</p>
         </div>
-        <div class="col-6 bg-image bg-interior tall-60"></div>
+        <div class="col-6_sm-12 bg-image bg-interior tall-60"></div>
     </section>
 
-    <section class="grid padded margin-b-2">
-        <div class="col-6 bg-image bg-drinks tall-60"></div>
-        <div class="col-6-middle padded">
-            <h3> Карта Бара </h3>
+    <section class="grid padded margin-b-2 sm-padded-b-0">
+        <div class="col-6_sm-12 bg-image bg-drinks tall-60"></div>
+        <div class="col-6_sm-12-middle padded">
+            <h3 class="sm-center "> Карта Бара </h3>
             <p> Тconsectetur adipisicing elit. Natus quibusdam ipsum recusandae sapiente voluptatem sunt reiciendis, quos cumque magni, vel maiores eius, voluptas possimus placeat distinctio tenetur sed harum aspernatur.</p>
         </div>  
     </section>
 
 <!-- Banner Section -->
 
-    <section class="grid-middle tall-60 padded bg-featured">
+    <section class="grid-middle tall-55 sm-tall-45 padded bg-featured">
         <div class="col-12 banner center">
-            <p class="margin-b-1 text-big"> Бестлатная доставка по всему городу при заказе от 1000 руб.  </p>
+            <p class="margin-b-15 text-big"> Бестлатная доставка по всему городу при заказе от 1000 руб. </p>
             <p> 14:00-00:30 </p>
             <!-- <nav class="social-share text-big ">
                 <a href="https://wa.me/89240025555"> <i class="fa-brands fa-whatsapp"></i> </a>
@@ -105,4 +105,4 @@ seo:
 
     {% include gallery.html %}
 
-    <!-- {% include form.html %} -->
+    
